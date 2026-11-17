@@ -1,0 +1,23 @@
+[project]
+name = "nba-lead-analysis"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "bokeh>=3.10.2",
+    "duckdb>=2.0.0",
+    "jupyter>=1.1.1",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
