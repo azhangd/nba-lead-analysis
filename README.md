@@ -3,7 +3,6 @@
 This dashboard compares how likely a lead is to hold with what coaches actually did. Change the lead, time, and matchup, then look at actual games to see how the score changed as starters got pulled and subbed back in.
 
 - Dashboard: https://azhangd.github.io/nba-lead-analysis/
-- Video: TODO: video link
 
 The dashboard uses Bokeh and runs entirely in the browser. [docs/index.html](docs/index.html) can also be downloaded and opened locally. No installation is needed.
 
